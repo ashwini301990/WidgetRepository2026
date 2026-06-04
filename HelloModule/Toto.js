@@ -1,4 +1,4 @@
-define("HelloModule/Toto",[],function() {
+define("WidgetRepository2026/HelloModule/Toto",[],function() {
 	var toto = {
         hello: "Test Module",
         textHello: "Bonjour",
