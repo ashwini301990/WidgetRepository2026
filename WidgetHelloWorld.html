@@ -25,8 +25,12 @@
 	
 	<script type="text/javascript">
 		function widgetLoading() {
+		    console.log("widgetLoading called");
 			if (widget) {
+			    console.log("About to call executeWidgetCode()");
 				executeWidgetCode();
+				console.log("Returned from executeWidgetCode()");
+
 			} else {
 				console.warn("Defered widget Loading");
 				setTimeout(widgetLoading, 100); //Wait for widget object to be added correctly
